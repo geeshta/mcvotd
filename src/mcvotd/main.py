@@ -19,7 +19,7 @@ async def job():
 async def main():
 
     scheduler = AsyncIOScheduler()
-    scheduler.add_job(job, IntervalTrigger(seconds=10))
+    scheduler.add_job(job, IntervalTrigger(hours=1))
     scheduler.start()
     
     await anyio.sleep_forever()
