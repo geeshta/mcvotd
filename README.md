@@ -1,3 +1,3 @@
-# mcvotd
+# Minecraft Verse Of The Day
 
-Describe your project here.
+Communicate verse of the day to a Minecraft server via RCON
